@@ -1,0 +1,20 @@
+# Purple Team Project
+# _config.yml
+#
+# Short description
+description: Broader perspective for a better understanding.
+# the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kyleegland.info"
+# the subpath of your site, e.g. /blog
+baseurl: "/purple-team-project"
+# the name of your site, e.g. ACME Corp.
+title: "Purple Team Project"
+
+# Exclude these files from the production _site
+# This was borrowed from the _config.yml found in the Jekyll Now project.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
